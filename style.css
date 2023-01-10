@@ -1,0 +1,175 @@
+* {
+    /* Va al principio para que el width y el height sean genericos */
+    box-sizing: border-box;
+}
+
+body {
+    /* Declaramos sans-serif como fuente auxiliar por si no estuviera disponible la principal */
+    display:flex;
+    flex-wrap: wrap;
+    font-family: Roboto, sans-serif;
+    margin: auto;
+
+    /*establece el ancho de todo el sitio web */
+    width: 1025px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.barraSup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    height: 20px;
+    width: 1024px;
+    padding-left: 39px;
+}
+
+.selectContent{
+    display: flex;
+    justify-content: space-around;
+}
+.selectSuperior {
+    background-color: #222222;
+    color: white;
+    padding: 2px;
+    font-size: 8px;
+    border: none;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.barraSup p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    width: 1024px;
+}
+.barraMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0A83E;
+    color:white;
+    height: 62px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.navPrincipal ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navPrincipal ul li {
+    margin:25px;
+    list-style: none;
+    list-style-image: url(/img/patitaChica.png);
+}
+.slider {
+    position: relative;
+    width: 1025px;
+    height: 409px;
+}
+
+.slider img {
+    position: absolute;
+    width: 1025px;
+    height: 409px;
+
+}
+.mensajeSlider {
+    position: absolute;
+    color: #3C2313;
+    background-color: #FFFFFF;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding: 10px;
+
+    width: 365px;
+
+    border-radius: 5px;
+    right: 19px;
+    top: 156px;
+}
+
+.submensajeSlider {
+    position: absolute;
+    color:#3C2313;
+
+    height: 21px;
+    width: 200px;
+    margin: 21px 1px;
+}
+
+.botonSlider {
+    position: absolute;
+    color: white;
+    background-color: #F0A83E;
+}
+
+.destacados h2 {
+    color: #3C2313;
+    font-size: 40px;
+}
+
+.cajaDeLinks a {
+    color:#666666;
+
+}
+
+.articulo {
+    background: #FBFAF6;
+
+}
+
+.tituloArticulo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3C2313;
+}
+
+.precio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #F0A83E;
+
+}
+
+.pasarelaParaArticulos p {
+    color: #3C2313;
+}
+
+.suscripcion {
+    background: #F0A83E;
+}
+
+.datosYlogo {
+    background: #3C2313;
+}
+
+.footerInferior {
+    background: #222222;
+}

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
 
     <!-- Asegura compatibilidad con el navegador de IE mas actualizado -->
-    <meta http-equiv="X-UA-Compatible" content="">
+    <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
 
     <!-- Asegura que el ancho de la web ocupara el ancho del dispositivo, y que su escala sera 1:1(no sera necesario hacer zoom
         para ver los elementos)-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>Veterinaria Petshop</title>
 </head>
 <body>
@@ -16,14 +18,18 @@
     <header>
         <div class="barraSup">
             <p>Grandes Ofertas, cliquea aqui!</p>
-            <div>
-                <select id="idioma" name="idioma">
+            <div class="selectContent">
+                <select class="selectSuperior" name="idioma">
                     <option value="espaniol">Español</option>
                     <option value="ingles">Ingles</option>
                 </select>
+                <select class="selectSuperior" name="moneda">
+                    <option value="argentino">AR$</option>
+                    <option value="dolar">USD</option>
+                </select>
             </div>
         </div>
-        <div>
+        <div class="barraMenu">
             <div class="logo"><img src="img/logoFront.png" alt="Logo de la pagina Front Cat and Dog"></div>
             <nav class="navPrincipal">
                 <ul>
@@ -38,41 +44,42 @@
 
     <main>
         <section class="slider">
-            <img src="img/bolsYcomidaParaPerros.png" alt="">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
+            <img src="img/bolsYcomidaParaPerros.png" alt="" width="100%">
+            <h1 class="mensajeSlider">¡Es un placer tenerte aquí!</h1>
+            <p class="submensajeSlider">¡Comederos en descuento!</p>
+            <button class="botonSlider">COMEDEROS</button>
+            
         </section>
         <section class="destacados">
             <img src="img/patitaGrande.png" alt="huella de perro grande">
-            <p>Productos Destacados</p>
-            <div>
+            <h2>Productos Destacados</h2>
+            <div class="cajaDeLinks">
                 <a href="">Comederos</a>
                 <a href="">Accesorios</a>
                 <a href="">Comida</a>
             </div>
             <div class="pasarelaArticulos">
                 <!-- line-block para hacer que toda la imagen mas las -->
-                <div>
+                <div class="articulo">
                     <a href="">
                         <img src="img/churrasquito.png" alt="Juguete de churrasquito">
-                        <p>Juguete Churrasquito</p>
-                        <p>$150</p>
+                        <p class="tituloArticulo">Juguete Churrasquito</p>
+                        <p class="precio">$150</p>
                     </a>
                 </div>
-                <div>
+                <div class="articulo">
                     <a href="">
                         <div>
                         <img src="img/comedero.png" alt="Comedero para perro">
-                        <p>Comedero para perro</p>
-                        <p>$250</p>
+                        <p class="tituloArticulo">Comedero para perro</p>
+                        <p class="precio">$250</p>
                     </a>
                 </div>
-                <div>
+                <div class="articulo">
                     <a href="">
                         <img src="img/Huesito.png" alt="Juguete Huesito">
-                        <p>Juguete Huesito</p>
-                        <p>$650</p>
+                        <p class="tituloArticulo">Juguete Huesito</p>
+                        <p class="precio">$650</p>
                     </a>
                 </div>
             </div>
