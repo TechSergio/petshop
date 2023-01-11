@@ -44,19 +44,24 @@
 
     <main>
         <section class="slider">
-            <img src="img/bolsYcomidaParaPerros.png" alt="" width="100%">
-            <h1 class="mensajeSlider">¡Es un placer tenerte aquí!</h1>
-            <p class="submensajeSlider">¡Comederos en descuento!</p>
-            <button class="botonSlider">COMEDEROS</button>
+            <!-- <img src="img/bolsYcomidaParaPerros.png" alt="" width="100%"> -->
+            <div class="vacioSlider">   </div>
+            <div class="textoSlider">
+                <h1 class="mensajeSlider">¡Es un placer tenerte aquí!</h1>
+                <p class="submensajeSlider">¡Comederos en descuento!</p>
+                <button class="botonSlider">COMEDEROS</button>
+            </div>
             
         </section>
         <section class="destacados">
-            <img src="img/patitaGrande.png" alt="huella de perro grande">
-            <h2>Productos Destacados</h2>
-            <div class="cajaDeLinks">
-                <a href="">Comederos</a>
-                <a href="">Accesorios</a>
-                <a href="">Comida</a>
+            <div class="cabeceraDestacados">
+                <div class="imgPatita"></div>
+                <h2>Productos Destacados</h2>
+                <div class="cajaDeLinks">
+                    <a href="">Comederos   -</a>
+                    <a href="">Accesorios  -</a>
+                    <a href="">Comida</a>
+                </div>
             </div>
             <div class="pasarelaArticulos">
                 <!-- line-block para hacer que toda la imagen mas las -->
@@ -69,7 +74,6 @@
                 </div>
                 <div class="articulo">
                     <a href="">
-                        <div>
                         <img src="img/comedero.png" alt="Comedero para perro">
                         <p class="tituloArticulo">Comedero para perro</p>
                         <p class="precio">$250</p>
@@ -90,13 +94,15 @@
                 <input type="text" placeholder="Nombre y Apellido">
                 <input type="text" placeholder="Ingresa tu correo electronico">
                 <input type="text" placeholder="Teléfono">
-                <button>Resetear</button>
-                <button>Enviar</button>
+                <button class="botonReset">Resetear</button>
+                <button class="botonEnviar">Enviar</button>
             </form>
         </section>
         <section class="suscripcion">
-            <img src="img/enviar-correo.png" alt="iconoCorreo">
-            <p>Suscribite para mas novedades</p>
+            <div class="suscripcionIzq">
+                <img src="img/enviar-correo.png" alt="iconoCorreo">
+                <p>Suscribite para mas novedades</p>
+            </div>
             <form action="\">
                 <input type="text" placeholder="Ingresá tu correo electronico">
                 <button>Suscribirme</button>
@@ -107,24 +113,32 @@
     <footer>
         <div class="datosYlogo">
             <div class="datosDeContacto">
-                <div>
-                    <img src="img/IconoMaps.png" alt="iconoMap">
-                    <p>Localidad</p>
-                    <p>Calle - Provincia</p>
+                <div class="cajaContacto">
+                    <div><img src="img/IconoMaps.png" alt="iconoMap"></div>
+                    <div>
+                        <p class="pFuerte">Localidad</p>
+                        <p class="pDebil">Calle - Provincia</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="img/iconoTelefono.png" alt="iconoTelefono">
-                    <p>Teléfono</p>
-                    <p>Número de teléfono</p>
+                <div class="cajaContacto">
+                    <div><img src="img/iconoTelefono.png" alt="iconoTelefono"></div>
+                    <div>
+                        <p class="pFuerte">Teléfono</p>
+                        <p class="pDebil">Número de teléfono</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="img/iconoCorreo.png" alt="iconoEmail">
-                    <p>Correo Electrónico</p>
-                    <p>Dirección de correo</p>
+                <div class="cajaContacto">
+                    <div><img src="img/iconoCorreo.png" alt="iconoEmail"></div>
+                    <div>
+                        <p class="pFuerte">Correo Electrónico</p>
+                        <p class="pDebil">Dirección de correo</p>
+                    </div>
                 </div>
             </div>
-            <div class="logo alterno">
-                <img src="img/logoFrontAlternativo.png" alt="Logo Front Cat y Dog alternativo">
+            <div class="logoAlterno">
+                <div>
+                    <img src="img/logoFrontAlternativo.png" alt="Logo Front Cat y Dog alternativo">
+                </div>
             </div>
         </div>
         <div class="footerInferior">Todos los derechos reservados Sergio Marquez</div>
