@@ -75,7 +75,7 @@ a {
 .navPrincipal ul li {
     margin:25px;
     list-style: none;
-    list-style-image: url(/img/patitaChica.png);
+    list-style-image: url(img/patitaChica.png);
 }
 .slider {
     position: relative;
@@ -95,7 +95,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: flex-;
-    background: url(/img/bolsYcomidaParaPerros.png);
+    background: url(img/bolsYcomidaParaPerros.png);
 }
 
 .vacioSlider {
@@ -166,7 +166,7 @@ a {
     height: 71px;
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    background:url(/img/patitaGrande.png);
+    background:url(img/patitaGrande.png);
     background-size: cover;
 }
 
