@@ -441,6 +441,11 @@ button {
     justify-content: center;
     align-items: center;
     width: 50%;
+
+}
+
+.articulo:hover{
+    transform: scale(1.1);
 }
 
 .footerInferior {
